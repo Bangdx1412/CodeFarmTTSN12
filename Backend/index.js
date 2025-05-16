@@ -1,5 +1,5 @@
 import express from "express";
-import routes from "./src/routes/index.js";
+import routes from "./src/routes/index.route.js";
 import connectDB from "./src/configs/db.js";
 import notFoundHandler from "./src/middlewares/notFoundHandler.js";
 import errorHandler from "./src/middlewares/errorHandler.js";
