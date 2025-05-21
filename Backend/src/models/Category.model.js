@@ -22,6 +22,7 @@ const categorySchema = new mongoose.Schema({
     },
 	deletedAt: Date,
   },{timestamps: true, versionKey: false});
-const Cateogry = mongoose.model("Cateogry", categorySchema,"categories");
+const Category = mongoose.model("Category", categorySchema, "categories");
 
-export default Cateogry;
+
+export default Category;
